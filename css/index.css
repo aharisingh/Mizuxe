@@ -1,0 +1,65 @@
+body {
+  margin-top: 100x; }
+
+.navbar img {
+  width: 100px; }
+
+.navbar-nav .nav-item {
+  font-size: 1.4rem;
+  padding-right: 1.4rem; }
+
+#showcase {
+  margin-top: 150px;
+  position: relative;
+  background: url("../images/mountains.jpg");
+  min-height: 650px; }
+
+#showcase .primary-overlay {
+  background-color: rgba(50, 122, 163, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+#newsletter .container .row div input:hover {
+  background-color: green;
+  color: white; }
+
+.hov:hover {
+  background-color: #327aa3;
+  color: white; }
+
+.info-header {
+  width: 50%;
+  margin: auto;
+  border-bottom: 3px solid #327aa3;
+  padding: 2px; }
+
+.card-body img {
+  margin-top: -50px; }
+
+.card-body:hover {
+  background-color: #327aa3;
+  color: white; }
+.form-group input{
+    border-radius: 20px;
+}
+
+.form-group input:hover {
+  background-color: lightgreen;
+  color: white; }
+
+@media (max-width: 768px) {
+  #showcase {
+    min-height: 500px; }
+
+  #showcase h1 {
+    font-size: 3rem; }
+
+  .space {
+    margin-top: 2px;
+    margin-bottom: 7px; }
+
+  .card {
+    margin-top: 60px; } }
